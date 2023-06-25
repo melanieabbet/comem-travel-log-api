@@ -31,7 +31,7 @@ const defaultConfig = {
   baseUrl: `http://localhost:${configFromEnvironment.port || 3000}`,
   bcryptCost: 10,
   db: 'mongodb://localhost/comem-travel-log-api',
-  cors: false,
+  cors: true,
   docs: {
     open: true
   },
